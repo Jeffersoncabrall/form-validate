@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formulário</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container">
@@ -14,7 +15,11 @@
       <form id="form" class="form">
         <div class="form-control">
           <label for="username">Nome de usuário</label>
-          <input type="text" id="username" />
+          <input
+            type="text"
+            id="username"
+            placeholder="Digite seu nome de usuário"
+          />
           <i class="fas fa-exclamation-circle"></i>
           <i class="fas fa-check-circle"></i>
           <small>Mensagem de erro</small>
@@ -22,7 +27,7 @@
 
         <div class="form-control">
           <label for="email">E-mail</label>
-          <input type="text" id="email" />
+          <input type="text" id="email" placeholder="Digite seu e-mail" />
           <i class="fas fa-exclamation-circle"></i>
           <i class="fas fa-check-circle"></i>
           <small>Mensagem de erro</small>
@@ -30,7 +35,7 @@
 
         <div class="form-control">
           <label for="password">Senha</label>
-          <input type="text" id="password" />
+          <input type="password" id="password" placeholder="Digite sua senha" />
           <i class="fas fa-exclamation-circle"></i>
           <i class="fas fa-check-circle"></i>
           <small>Mensagem de erro</small>
@@ -38,7 +43,11 @@
 
         <div class="form-control">
           <label for="password-confirmation">Confirmação de senha</label>
-          <input type="text" id="password-confirmation" />
+          <input
+            type="password"
+            id="password-confirmation"
+            placeholder="Confirme sua senha"
+          />
           <i class="fas fa-exclamation-circle"></i>
           <i class="fas fa-check-circle"></i>
           <small>Mensagem de erro</small>
